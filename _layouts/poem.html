@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="col-md-8">
+	{{ content }}
+</div>
+
+<div class="col-md-4 sidebar text-center">
+	{% for post in site.posts limit:10 %}
+	{% if post.poem %}
+	<h2 class="sidebar-content-title">{{ post.title }}</h2>
+	<p class="sidebar-content-text">
+		<a href="{{ post.url }}"> read this poem</a>
+	</p>
+	{% endif %}
+	{% endfor %}
+</div>

@@ -1,0 +1,6 @@
+name: "William Saint George"
+description: "The official website of Ghanaian writer William Saint George"
+url: "http://127.0.0.1:4000/"
+markdown: kramdown
+permalink: pretty
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
