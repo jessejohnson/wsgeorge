@@ -11,7 +11,7 @@ layout: default
   	{% if post.blog %}
     	<h2 class="sidebar-content-title">{{ post.title }}</h2>
     	<p class="sidebar-content-text">
-     	 	<a href="{{ post.url }}"> read this post</a>
+    		{{ post.date | date_to_long_string }} | <a href="{{ post.url }}"> read this post</a>
     	</p>
     {% endif %}
   {% endfor %}

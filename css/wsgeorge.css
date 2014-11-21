@@ -110,6 +110,14 @@ body{
 	font-family: ebgaramond, serif;
 	font-size: 22px;
 	color: #FFFFFF;
+	margin-bottom: 25px;
+	/*text-shadow: 1px 1px 1px #555555;*/
+}
+
+.signature{
+		font-family: satisfy, cursive;
+	margin-bottom: 30px;
+	color: #FFFFFF;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
@@ -128,9 +136,10 @@ body{
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
-.sidebar-content-text a{
+.sidebar-content-text, .sidebar-content-text a{
 	font-family: ebgaramond, serif;
 	font-size: 15px;
 	color: #FFFFFF;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
+
