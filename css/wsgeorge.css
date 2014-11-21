@@ -125,6 +125,10 @@ body{
 	margin-top: 110px;
 	border-top-style: double;
 	border-top-width: 1px;
+	padding-top: 10px;
+	border-bottom-style: double;
+	border-bottom-width: 1px;
+	padding-bottom: 25px;
 	border-color: #FFFFFF;
 }
 
