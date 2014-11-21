@@ -115,14 +115,14 @@ body{
 }
 
 .signature{
-		font-family: satisfy, cursive;
+	font-family: satisfy, cursive;
 	margin-bottom: 30px;
 	color: #FFFFFF;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .sidebar{
-	margin-top: 50px;
+	margin-top: 110px;
 	border-top-style: double;
 	border-top-width: 1px;
 	border-color: #FFFFFF;
