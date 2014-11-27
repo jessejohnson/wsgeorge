@@ -14,8 +14,8 @@
 	src: url('../fonts/Satisfy-Regular.ttf');
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 body{
@@ -37,6 +37,19 @@ body{
 	font-family: satisfy, cursive;
 	font-size: 18px;
 	color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle{
+	border-style: none;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background: transparent;
+}
+
+.navbar-default .navbar-toggle:focus{
+	background: transparent;
 }
 
 .navbar-default .navbar-nav li a{
@@ -146,4 +159,3 @@ body{
 	color: #FFFFFF;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
-
