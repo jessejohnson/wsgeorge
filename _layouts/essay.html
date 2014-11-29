@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="col-md-8">
+  {{ content }}
+</div>
+
+<div class="col-md-4 sidebar text-center">
+  {% for post in site.posts limit: 5 %}
+  	{% if post.essay %}
+    	<h2 class="sidebar-content-title">{{ post.title }}</h2>
+    	<p class="sidebar-content-text">
+    		{{ post.subtitle }}
+    	</p>
+    	<p class="sidebar-content-text">
+    		{{ post.date | date_to_long_string }} | <a href="{{ post.url }}"> read this essay</a>
+    	</p>
+    {% endif %}
+  {% endfor %}
+</div>

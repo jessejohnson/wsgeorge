@@ -21,7 +21,7 @@
 body{
 	/*padding-top: 70px;*/
 	padding-bottom: 30px;
-	background: url('../img/landscape_dark_small.jpg') no-repeat center center fixed;
+	background: url('../img/grassland_dark.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -125,6 +125,14 @@ body{
 	color: #FFFFFF;
 	margin-bottom: 25px;
 	/*text-shadow: 1px 1px 1px #555555;*/
+}
+
+.content-quote{
+	font-family: ebgaramond, serif;
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .signature{
