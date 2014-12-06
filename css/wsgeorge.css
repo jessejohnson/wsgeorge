@@ -119,6 +119,14 @@ body{
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
+.content-subtitle{
+	font-family: satisfy, cursive;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+	/*text-shadow: 1px 1px 1px #555555;*/
+}
+
 .content-text{
 	font-family: ebgaramond, serif;
 	font-size: 22px;
