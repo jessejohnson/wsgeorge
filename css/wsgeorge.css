@@ -135,9 +135,14 @@ body{
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
+.content-text a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
 .content-quote{
 	font-family: ebgaramond, serif;
-	font-size: 30px;
+	font-size: 24px;
 	color: #FFFFFF;
 	margin-top: 25px;
 	margin-bottom: 25px;
