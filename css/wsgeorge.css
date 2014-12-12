@@ -21,11 +21,12 @@
 body{
 	/*padding-top: 70px;*/
 	padding-bottom: 30px;
-	background: url('../img/grassland_dark.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
+	/*background: url('../img/grassland_dark.jpg') no-repeat center center fixed;*/
+	background: url('../img/paper.jpg');
+/*	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .navbar-default{
@@ -36,7 +37,8 @@ body{
 
 	font-family: satisfy, cursive;
 	font-size: 18px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 }
 
 .navbar-default .navbar-toggle{
@@ -53,12 +55,14 @@ body{
 }
 
 .navbar-default .navbar-nav li a{
-	color: #FFFFFF;
-	text-shadow: 1px 1px 1px #000000;
+	/*color: #FFFFFF;*/
+	color: #333;
+	/*text-shadow: 1px 1px 1px #000000;*/
 }
 
 .navbar-default .navbar-nav li a:hover{
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 }
 
 .navbar-default .navbar-nav .open>a:focus{
@@ -73,7 +77,8 @@ body{
 .navbar-default .navbar-brand{
 	font-family: satisfy, cursive;
 	font-size: 20px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 }
 
 .navbar-fixed-bottom{
@@ -91,7 +96,8 @@ body{
 
 	font-family: miama, cursive;
 	font-size: 12vh;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
@@ -99,7 +105,8 @@ body{
 .psa-text{
 	font-family: miama, cursive;
 	font-size: 5vh;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	font-weight: 100;
 
 	/*text-shadow: 1px 1px 1px #555555;*/
@@ -115,7 +122,8 @@ body{
 .content-title{
 	font-family: satisfy, cursive;
 	margin-bottom: 30px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
@@ -123,27 +131,31 @@ body{
 	font-family: satisfy, cursive;
 	margin-top: 40px;
 	margin-bottom: 20px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .content-text{
 	font-family: ebgaramond, serif;
 	font-size: 22px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	margin-bottom: 25px;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .content-text a{
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	text-decoration: underline;
 }
 
 .content-quote{
 	font-family: ebgaramond, serif;
 	font-size: 24px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -151,7 +163,8 @@ body{
 .signature{
 	font-family: satisfy, cursive;
 	margin-bottom: 30px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
@@ -163,20 +176,23 @@ body{
 	border-bottom-style: double;
 	border-bottom-width: 1px;
 	padding-bottom: 25px;
-	border-color: #FFFFFF;
+	/*border-color: #FFFFFF;*/
+	border-color: #333;
 }
 
 .sidebar-content-title{
 	font-family: satisfy, cursive;
 	margin-bottom: 5px;
 	font-size: 25px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .sidebar-content-text, .sidebar-content-text a{
 	font-family: ebgaramond, serif;
 	font-size: 15px;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #333;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
