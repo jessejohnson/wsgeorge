@@ -7,7 +7,7 @@ layout: default
 </div>
 
 <div class="col-md-4 sidebar text-center">
-  {% for post in site.posts limit: 5 %}
+  {% for post in site.posts limit: 10 %}
   	{% if post.blog %}
     	<h2 class="sidebar-content-title">{{ post.title }}</h2>
     	<p class="sidebar-content-text">
@@ -15,4 +15,7 @@ layout: default
     	</p>
     {% endif %}
   {% endfor %}
+
+  <!-- link to archive page -->
+  <p class="sidebar-content-text"><a href="/archive">view complete archive</a></p>
 </div>
