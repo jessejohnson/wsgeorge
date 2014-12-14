@@ -1,6 +1,7 @@
 ---
 title: Entire Site Archive
 layout: default
+description: All writing by the Ghanaian poet wsgeorge
 ---
 
 <h1 class="content-title">{{ page.title }}</h1>
@@ -23,10 +24,7 @@ layout: default
       <time class="sidebar-content-text">{{ post.date | date:"%d %b" }}</time>
       <a href="{{ post.url }}"> | {{ post.title }}</a>
       <strong class="sidebar-content-text">
-        <span>{{ post.blog }}</span>
-        <span>{{ post.story }}</span>
-        <span>{{ post.poem }}</span>
-        <span>{{ post.essay }}</span>
+        <span>{{ post.tags }}</span>
       </strong>
     </li>
   {% endfor %}

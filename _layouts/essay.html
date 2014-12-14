@@ -7,8 +7,7 @@ layout: default
 </div>
 
 <div class="col-md-4 sidebar text-center">
-  {% for post in site.posts limit: 5 %}
-  	{% if post.essay %}
+  {% for post in site.tags.essay limit: 5 %}
     	<h2 class="sidebar-content-title">{{ post.title }}</h2>
     	<p class="sidebar-content-text">
     		{{ post.subtitle }}
@@ -16,9 +15,8 @@ layout: default
     	<p class="sidebar-content-text">
     		{{ post.date | date_to_long_string }} | <a href="{{ post.url }}"> read this essay</a>
     	</p>
-    {% endif %}
   {% endfor %}
 
     <!-- link to archive page -->
-  <p class="sidebar-content-text"><a href="/archive">view complete archive</a></p>
+  <p class="sidebar-content-text strong"><a href="/archive">~ view complete archive ~</a></p>
 </div>

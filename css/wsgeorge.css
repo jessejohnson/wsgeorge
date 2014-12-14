@@ -196,3 +196,7 @@ body{
 	color: #333;
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
+
+.strong{
+	font-weight: bold;
+}
