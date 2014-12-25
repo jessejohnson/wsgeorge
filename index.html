@@ -11,3 +11,9 @@ description: Poems, Stories, Essays, Blog of wsgeorge, Ghanaian Poet and Blogger
 <h4 class="text-center psa-text">
 	~ Ghanaian poet &amp; Slayer of Dragons ~
 </h4>
+
+{% for post in site.posts limit:1 %}
+	<h4 class="sidebar-content-text text-center strong latest-link">
+		<a href="{{ post.url }}">Read {{post.title}}</a>
+	</h4>
+{% endfor %}
