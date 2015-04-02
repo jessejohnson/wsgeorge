@@ -117,8 +117,8 @@ body{
 
 
 .content-container{
-	padding-left: 10px;
-	padding-right: 10px;
+/*	padding-left: 5px;
+	padding-right: 5px;*/
 }
 
 .content-title{
@@ -140,7 +140,7 @@ body{
 
 .content-text{
 	font-family: ebgaramond, serif;
-	font-size: 22px;
+	font-size: 19px;
 	/*color: #FFFFFF;*/
 	color: #333;
 	margin-bottom: 25px;
@@ -151,11 +151,12 @@ body{
 	/*color: #FFFFFF;*/
 	color: #333;
 	text-decoration: underline;
+	font-weight: bold;
 }
 
 .content-quote{
 	font-family: ebgaramond, serif;
-	font-size: 24px;
+	font-size: 22px;
 	/*color: #FFFFFF;*/
 	color: #333;
 	margin-top: 25px;
