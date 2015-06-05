@@ -14,6 +14,16 @@
 	src: url('../fonts/Satisfy-Regular.ttf');
 }
 
+@font-face{
+	font-family: newyorker;
+	src: url('../fonts/newyorkertitle.woff');
+}
+
+@font-face{
+	font-family: newyorkercaps;
+	src: url('../fonts/newyorkercaps.woff');
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -32,15 +42,18 @@ body{
 }
 
 .navbar-default{
+	/*background: #FFFFFF;*/
 	background: transparent;
 	border-style: none;
 
 	padding-top: 15px;
 
 	font-family: satisfy, cursive;
+	/*font-family: newyorkercaps;*/
 	font-size: 18px;
 	/*color: #FFFFFF;*/
 	color: #333;
+	/*box-shadow: 0 2px 2px rgba(0, 0, 0, .175);*/
 }
 
 .navbar-default .navbar-toggle{
@@ -78,7 +91,8 @@ body{
 
 .navbar-default .navbar-brand{
 	font-family: satisfy, cursive;
-	font-size: 20px;
+	/*font-family: newyorkercaps;*/
+	font-size: 15px;
 	/*color: #FFFFFF;*/
 	color: #333;
 }
@@ -86,6 +100,7 @@ body{
 .navbar-fixed-bottom{
 	padding-top: 0px;
 	padding-right: 40px;
+	background: transparent;
 }
 
 /*HOME PAGE RULES*/
@@ -97,6 +112,7 @@ body{
 	/*line-height: 1.3;*/
 
 	font-family: miama, cursive;
+	/*font-family: newyorker;*/
 	font-size: 12vh;
 	/*color: #FFFFFF;*/
 	color: #333;
@@ -129,6 +145,7 @@ body{
 
 .content-title{
 	font-family: satisfy, cursive;
+	/*font-family: newyorker;*/
 	margin-bottom: 30px;
 	/*color: #FFFFFF;*/
 	color: #333;
@@ -137,6 +154,7 @@ body{
 
 .content-subtitle{
 	font-family: satisfy, cursive;
+	/*font-family: newyorkercaps;*/
 	margin-top: 40px;
 	margin-bottom: 20px;
 	/*color: #FFFFFF;*/
@@ -191,6 +209,7 @@ body{
 
 .sidebar-content-title{
 	font-family: satisfy, cursive;
+	/*font-family: newyorker;*/
 	margin-bottom: 5px;
 	font-size: 25px;
 	/*color: #FFFFFF;*/
@@ -200,6 +219,7 @@ body{
 
 .sidebar-content-text, .sidebar-content-text a{
 	font-family: ebgaramond, serif;
+	/*font-family: newyorker;*/
 	font-size: 15px;
 	/*color: #FFFFFF;*/
 	color: #333;
