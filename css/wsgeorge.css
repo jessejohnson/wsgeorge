@@ -15,11 +15,6 @@
 }
 
 @font-face{
-	font-family: newyorker;
-	src: url('../fonts/newyorkertitle.woff');
-}
-
-@font-face{
 	font-family: newyorkercaps;
 	src: url('../fonts/newyorkercaps.woff');
 }
@@ -29,170 +24,74 @@
 }
 
 body{
-	/*padding-top: 70px;*/
-	padding-bottom: 30px;
-	/*background: url('../img/grassland_dark.jpg') no-repeat center center fixed;*/
-	/*background: url('../img/paper.jpg');*/
-	/*background-attachment: fixed;*/
 	background-color: #efecdc;
-/*	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/
-}
-
-.navbar-default{
-	/*background: #FFFFFF;*/
-	background: transparent;
-	border-style: none;
-
 	padding-top: 15px;
-
-	font-family: satisfy, cursive;
-	/*font-family: newyorkercaps;*/
-	font-size: 18px;
-	/*color: #FFFFFF;*/
-	color: #333;
-	/*box-shadow: 0 2px 2px rgba(0, 0, 0, .175);*/
-}
-
-.navbar-default .navbar-toggle{
-	border-style: none;
-	font-size: 20px;
-}
-
-.navbar-default .navbar-toggle:hover{
-	background: transparent;
-}
-
-.navbar-default .navbar-toggle:focus{
-	background: transparent;
-}
-
-.navbar-default .navbar-nav li a{
-	/*color: #FFFFFF;*/
-	color: #333;
-	/*text-shadow: 1px 1px 1px #000000;*/
-}
-
-.navbar-default .navbar-nav li a:hover{
-	/*color: #FFFFFF;*/
-	color: #333;
-}
-
-.navbar-default .navbar-nav .open>a:focus{
-	color: #333333;
-	background: transparent;
-}
-.navbar-default .navbar-nav li a:focus{
-	color: #333333;
-	background: transparent;
-}
-
-.navbar-default .navbar-brand{
-	font-family: satisfy, cursive;
-	/*font-family: newyorkercaps;*/
-	font-size: 15px;
-	/*color: #FFFFFF;*/
-	color: #333;
-}
-
-.navbar-fixed-bottom{
-	padding-top: 0px;
-	padding-right: 40px;
-	background: transparent;
+	padding-bottom: 15px;
 }
 
 /*HOME PAGE RULES*/
 
-.banner-text{
-	margin-top: 130px;
-	margin-bottom: 30px;
-	/*padding: 15px;*/
-	/*line-height: 1.3;*/
-
-	font-family: miama, cursive;
-	/*font-family: newyorker;*/
-	font-size: 12vh;
-	/*color: #FFFFFF;*/
+.header-text{
+	font-family: newyorkercaps;
+	text-decoration: none;
 	color: #333;
-
-	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
-.psa-text{
-	font-family: miama, cursive;
-	font-size: 6vh;
-	/*color: #FFFFFF;*/
-	color: #333;
-	font-weight: 100;
-	margin-bottom: 40px;
-
-	/*text-shadow: 1px 1px 1px #555555;*/
+.navbar-default{
+	font-family: newyorkercaps;
+	background: transparent;
+	box-shadow: 1px 1px 1px #DBCFCF;
 }
 
-.latest-link{
-	/*margin-bottom: 30px;*/
+/*INDEX*/
+.link a{
+	font-family: newyorkercaps;
+	text-decoration: none;
+	color: #333;
 }
 
 /*LAYOUT RULES*/
 
-
-.content-container{
-/*	padding-left: 5px;
-	padding-right: 5px;*/
-}
-
 .content-title{
-	font-family: satisfy, cursive;
-	/*font-family: newyorker;*/
+	font-family: newyorkercaps;
 	margin-bottom: 30px;
-	/*color: #FFFFFF;*/
 	color: #333;
-	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .content-subtitle{
-	font-family: satisfy, cursive;
-	/*font-family: newyorkercaps;*/
+	/*font-family: satisfy, cursive;*/
+	font-family: newyorkercaps;
 	margin-top: 40px;
 	margin-bottom: 20px;
-	/*color: #FFFFFF;*/
 	color: #333;
-	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .content-text{
 	font-family: ebgaramond, serif;
 	font-size: 19px;
-	/*color: #FFFFFF;*/
 	color: #333;
 	margin-bottom: 25px;
-	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .content-text a{
-	/*color: #FFFFFF;*/
+	font-family: ebgaramond;
 	color: #333;
 	text-decoration: underline;
-	font-weight: bold;
 }
 
 .content-quote{
 	font-family: ebgaramond, serif;
 	font-size: 22px;
-	/*color: #FFFFFF;*/
 	color: #333;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	margin-left: 50px;
 }
 
 .signature{
-	font-family: satisfy, cursive;
+	font-family: newyorkercaps;
 	margin-bottom: 30px;
-	/*color: #FFFFFF;*/
 	color: #333;
-	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
 .sidebar{
@@ -203,12 +102,11 @@ body{
 	border-bottom-style: double;
 	border-bottom-width: 1px;
 	padding-bottom: 25px;
-	/*border-color: #FFFFFF;*/
 	border-color: #333;
 }
 
 .sidebar-content-title{
-	font-family: satisfy, cursive;
+	font-family: newyorkercaps;
 	/*font-family: newyorker;*/
 	margin-bottom: 5px;
 	font-size: 25px;
@@ -226,6 +124,6 @@ body{
 	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
-.strong{
-	font-weight: bold;
+footer{
+	position: bottom;
 }
