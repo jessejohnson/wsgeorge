@@ -1,22 +1,12 @@
 @font-face {
-	font-family: miama;
-	src: url('../fonts/Miama.otf');
-	font-weight: 500;
-}
-
-@font-face {
 	font-family: ebgaramond;
 	src: url('../fonts/EBGaramond-Regular.ttf');
 }
 
-@font-face{
-	font-family: satisfy;
-	src: url('../fonts/Satisfy-Regular.ttf');
-}
 
 @font-face{
 	font-family: newyorkercaps;
-	src: url('../fonts/newyorkercaps.woff');
+	src: url('../fonts/frank-regular-webfont.woff');
 }
 
 ::-webkit-scrollbar {
