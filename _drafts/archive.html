@@ -1,13 +1,13 @@
 ---
 title: Entire Site Archive
-layout: default
+layout: base
 description: All writing by the Ghanaian poet wsgeorge
 ---
 
-<h1 class="content-title">{{ page.title }}</h1>
+<h1 class="title-text">{{ page.title }}</h1>
 
 <div>
-  <h3 class="content-subtitle">This Year's Content</h3>
+  <h3 class="title-text">This Year's Content</h3>
   {%for post in site.posts %}
     {% unless post.next %}
       <ul class="this list-inline">
@@ -16,7 +16,7 @@ description: All writing by the Ghanaian poet wsgeorge
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
       </ul>
-  <h3 class="content-subtitle">{{ post.date | date: '%Y' }}'s Content</h3>
+  <h3 class="title-text">{{ post.date | date: '%Y' }}'s Content</h3>
   <ul class="past list-inline">
       {% endif %}
     {% endunless %}

@@ -3,117 +3,103 @@
 	src: url('../fonts/EBGaramond-Regular.ttf');
 }
 
+@font-face {
+	font-family: temple;
+	src: url('../fonts/templehof.woff');
+}
 
 @font-face{
-	font-family: newyorkercaps;
+	font-family: frank;
 	src: url('../fonts/frank-regular-webfont.woff');
+}
+
+@font-face{
+	font-family: open;
+	src: url('../fonts/chunk-webfont.ttf');
+}
+
+@font-face{
+	font-family: children;
+	src: url('../fonts/Alphabet-of-Children-source.ttf');
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
-body{
-	background-color: #efecdc;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
 /*HOME PAGE RULES*/
 
-.header-text{
-	font-family: newyorkercaps;
+.header-text, .header-text a{
+	font-family: frank;
 	text-decoration: none;
 	color: #333;
-}
+	font-size: 46px;
 
-.navbar-default{
-	font-family: newyorkercaps;
-	background: transparent;
-	box-shadow: 1px 1px 1px #DBCFCF;
-}
-
-/*INDEX*/
-.link a{
-	font-family: newyorkercaps;
-	text-decoration: none;
-	color: #333;
-}
-
-/*LAYOUT RULES*/
-
-.content-title{
-	font-family: newyorkercaps;
-	margin-bottom: 30px;
-	color: #333;
-}
-
-.content-subtitle{
-	/*font-family: satisfy, cursive;*/
-	font-family: newyorkercaps;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-bottom: 20px;
-	color: #333;
+	text-shadow: 0 0 1px #667;
 }
 
-.content-text{
-	font-family: ebgaramond, serif;
-	font-size: 19px;
-	color: #333;
-	margin-bottom: 25px;
-}
-
-.content-text a{
+.small-text{
+	font-size: 45%;
 	font-family: ebgaramond;
-	color: #333;
-	text-decoration: underline;
 }
 
-.content-quote{
-	font-family: ebgaramond, serif;
-	font-size: 22px;
-	color: #333;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-left: 50px;
+.rotatedFloralHeartBullet:after { 
+	content: "\2767"; 
+	font-size: 80%;
 }
 
-.signature{
-	font-family: newyorkercaps;
+.miniature{ 
+	float: left; 
+	color: #903; 
+	font-size: 85px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+	font-family: children; 
+	color: #333;
+	text-shadow: 0 0 1px #667;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.title-text{
+	font-family: frank;
+	text-decoration: none;
+	color: #333;
+	margin-top: 50px;
 	margin-bottom: 30px;
+	text-shadow: 0 0 1px #667;
+	/*font-size: 33px;*/
+}
+
+p{
+	font-family: ebgaramond;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+p a{
+	text-decoration: none;
 	color: #333;
+	text-shadow: 0 0 1px #667;
 }
 
-.sidebar{
-	margin-top: 110px;
-	border-top-style: double;
-	border-top-width: 1px;
-	padding-top: 10px;
-	border-bottom-style: double;
-	border-bottom-width: 1px;
-	padding-bottom: 25px;
-	border-color: #333;
-}
-
-.sidebar-content-title{
-	font-family: newyorkercaps;
-	/*font-family: newyorker;*/
-	margin-bottom: 5px;
-	font-size: 25px;
-	/*color: #FFFFFF;*/
-	color: #333;
-	/*text-shadow: 1px 1px 1px #555555;*/
-}
-
-.sidebar-content-text, .sidebar-content-text a{
-	font-family: ebgaramond, serif;
-	/*font-family: newyorker;*/
+.bottom-link a{
+	text-decoration: none;
+	font-family: ebgaramond;
 	font-size: 15px;
-	/*color: #FFFFFF;*/
 	color: #333;
-	/*text-shadow: 1px 1px 1px #555555;*/
 }
 
-footer{
-	position: bottom;
+.quote{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
 }
