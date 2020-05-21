@@ -11,7 +11,9 @@
 	    		{% include banner.html %}
 
 	    		{{ content }}
-
+                <p class="date-text text-right">
+                    {{page.date | date: "~ %A, %B %d, %Y"}}
+                </p>
 	    		<!-- bottom links -->
 	    		<hr>
 	    		<ul class="list-inline text-center">    			
